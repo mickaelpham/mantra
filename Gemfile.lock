@@ -25,6 +25,8 @@ GEM
       rubocop-ast (>= 0.4.0)
     rubocop-rake (0.5.1)
       rubocop
+    rubocop-sorbet (0.5.1)
+      rubocop
     ruby-progressbar (1.11.0)
     sorbet (0.5.6287)
       sorbet-static (= 0.5.6287)
@@ -41,6 +43,7 @@ DEPENDENCIES
   rubocop
   rubocop-performance
   rubocop-rake
+  rubocop-sorbet
   sorbet
   sorbet-runtime
   zeitwerk
