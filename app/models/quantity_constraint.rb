@@ -3,7 +3,7 @@
 
 class QuantityConstraint < T::Enum
   enums do
-    WallToWall = new
+    WallToWall      = new
     LessThanOrEqual = new
   end
 end
