@@ -2,5 +2,5 @@
 # frozen_string_literal: true
 
 class Rule
-  attr_accessor :configured_sku, :optional_sku, :quantity_constraint
+  attr_accessor :configured_product, :optional_product, :quantity_constraint
 end
