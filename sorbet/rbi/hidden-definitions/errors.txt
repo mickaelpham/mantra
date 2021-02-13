@@ -984,12 +984,12 @@
 # Did you mean?  Bundler::URI::SCHEME
 # uninitialized constant Bundler::URI::FTP::TBLDECWWWCOMP_
 # Did you mean?  Bundler::URI::FTP::TBLENCWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::FTP::TBLENCWWWCOMP_
 # Did you mean?  Bundler::URI::FTP::TBLDECWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::FTP::UNSAFE
 # Did you mean?  Bundler::URI::UNSAFE
 # uninitialized constant Bundler::URI::FTP::URI_REF
@@ -1050,12 +1050,12 @@
 # Did you mean?  Bundler::URI::SCHEME
 # uninitialized constant Bundler::URI::File::TBLDECWWWCOMP_
 # Did you mean?  Bundler::URI::File::TBLENCWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::File::TBLENCWWWCOMP_
 # Did you mean?  Bundler::URI::File::TBLDECWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::File::UNSAFE
 # Did you mean?  Bundler::URI::UNSAFE
 # uninitialized constant Bundler::URI::File::URI_REF
@@ -1119,12 +1119,12 @@
 # Did you mean?  Bundler::URI::SCHEME
 # uninitialized constant Bundler::URI::Generic::TBLDECWWWCOMP_
 # Did you mean?  Bundler::URI::Generic::TBLENCWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::Generic::TBLENCWWWCOMP_
 # Did you mean?  Bundler::URI::Generic::TBLDECWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::Generic::UNSAFE
 # Did you mean?  Bundler::URI::UNSAFE
 # uninitialized constant Bundler::URI::Generic::URI_REF
@@ -1238,12 +1238,12 @@
 # Did you mean?  Bundler::URI::SCHEME
 # uninitialized constant Bundler::URI::HTTP::TBLDECWWWCOMP_
 # Did you mean?  Bundler::URI::HTTP::TBLENCWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::HTTP::TBLENCWWWCOMP_
 # Did you mean?  Bundler::URI::HTTP::TBLDECWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::HTTP::UNSAFE
 # Did you mean?  Bundler::URI::UNSAFE
 # uninitialized constant Bundler::URI::HTTP::URI_REF
@@ -1302,12 +1302,12 @@
 # Did you mean?  Bundler::URI::SCHEME
 # uninitialized constant Bundler::URI::HTTPS::TBLDECWWWCOMP_
 # Did you mean?  Bundler::URI::HTTPS::TBLENCWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::HTTPS::TBLENCWWWCOMP_
 # Did you mean?  Bundler::URI::HTTPS::TBLDECWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::HTTPS::UNSAFE
 # Did you mean?  Bundler::URI::UNSAFE
 # uninitialized constant Bundler::URI::HTTPS::URI_REF
@@ -1366,12 +1366,12 @@
 # Did you mean?  Bundler::URI::SCHEME
 # uninitialized constant Bundler::URI::LDAP::TBLDECWWWCOMP_
 # Did you mean?  Bundler::URI::LDAP::TBLENCWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::LDAP::TBLENCWWWCOMP_
 # Did you mean?  Bundler::URI::LDAP::TBLDECWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::LDAP::UNSAFE
 # Did you mean?  Bundler::URI::UNSAFE
 # uninitialized constant Bundler::URI::LDAP::URI_REF
@@ -1453,12 +1453,12 @@
 # Did you mean?  Bundler::URI::LDAPS::SCOPE_ONE
 # uninitialized constant Bundler::URI::LDAPS::TBLDECWWWCOMP_
 # Did you mean?  Bundler::URI::LDAPS::TBLENCWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::LDAPS::TBLENCWWWCOMP_
 # Did you mean?  Bundler::URI::LDAPS::TBLDECWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::LDAPS::UNSAFE
 # Did you mean?  Bundler::URI::UNSAFE
 # uninitialized constant Bundler::URI::LDAPS::URI_REF
@@ -1515,12 +1515,12 @@
 # Did you mean?  Bundler::URI::SCHEME
 # uninitialized constant Bundler::URI::MailTo::TBLDECWWWCOMP_
 # Did you mean?  Bundler::URI::MailTo::TBLENCWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::MailTo::TBLENCWWWCOMP_
 # Did you mean?  Bundler::URI::MailTo::TBLDECWWWCOMP_
-#                Bundler::URI::TBLENCWWWCOMP_
 #                Bundler::URI::TBLDECWWWCOMP_
+#                Bundler::URI::TBLENCWWWCOMP_
 # uninitialized constant Bundler::URI::MailTo::UNSAFE
 # Did you mean?  Bundler::URI::UNSAFE
 # uninitialized constant Bundler::URI::MailTo::URI_REF
@@ -1659,10 +1659,79 @@
 # uninitialized constant DBM
 # uninitialized constant DBMError
 # uninitialized constant DBMError
-# uninitialized constant DRb
-# Did you mean?  ERB
-# uninitialized constant DRb
-# Did you mean?  ERB
+# wrong constant name _dump
+# wrong constant name _load
+# wrong constant name alive?
+# wrong constant name close
+# wrong constant name initialize
+# wrong constant name send_message
+# wrong constant name uri
+# wrong constant name make_pool
+# wrong constant name open
+# wrong constant name stop_pool
+# wrong constant name dump
+# wrong constant name initialize
+# wrong constant name load
+# wrong constant name recv_reply
+# wrong constant name recv_request
+# wrong constant name send_reply
+# wrong constant name send_request
+# wrong constant name ==
+# wrong constant name eql?
+# wrong constant name initialize
+# wrong constant name prepare_backtrace
+# wrong constant name with_friend
+# wrong constant name auto_load
+# wrong constant name initialize
+# wrong constant name <Class:InvokeMethod>
+# wrong constant name <Class:InvokeMethod18Mixin>
+# wrong constant name initialize
+# wrong constant name safe_level
+# wrong constant name initialize
+# wrong constant name perform
+# wrong constant name <static-init>
+# wrong constant name block_yield
+# wrong constant name perform_with_block
+# wrong constant name <static-init>
+# wrong constant name default_safe_level
+# wrong constant name make_config
+# wrong constant name accept
+# wrong constant name alive?
+# wrong constant name close
+# wrong constant name initialize
+# wrong constant name peeraddr
+# wrong constant name recv_reply
+# wrong constant name recv_request
+# wrong constant name send_reply
+# wrong constant name send_request
+# wrong constant name set_sockopt
+# wrong constant name shutdown
+# wrong constant name stream
+# wrong constant name uri
+# wrong constant name getservername
+# wrong constant name open
+# wrong constant name open_server
+# wrong constant name open_server_inaddr_any
+# wrong constant name parse_uri
+# wrong constant name uri_option
+# wrong constant name ==
+# wrong constant name eql?
+# wrong constant name initialize
+# wrong constant name option
+# wrong constant name <static-init>
+# wrong constant name _dump
+# wrong constant name _dump
+# wrong constant name _load
+# wrong constant name _dump
+# wrong constant name initialize
+# wrong constant name _load
+# wrong constant name _execute
+# wrong constant name alive?
+# wrong constant name initialize
+# wrong constant name kill
+# wrong constant name method_missing
+# wrong constant name <static-init>
+# wrong constant name mutex
 # wrong constant name infinite?
 # wrong constant name initialize
 # wrong constant name class_name
@@ -2229,9 +2298,11 @@
 # wrong constant name ==
 # wrong constant name initialize
 # uninitialized constant IRB
-# Did you mean?  ERB
+# Did you mean?  DRb
+#                ERB
 # uninitialized constant IRB
-# Did you mean?  ERB
+# Did you mean?  DRb
+#                ERB
 # wrong constant name to_bn
 # wrong constant name from_state
 # wrong constant name initialize
@@ -2454,28 +2525,28 @@
 #                Parser::Ruby24::Racc_Runtime_Core_Revision_R
 #                Parser::Ruby24::Racc_Runtime_Revision
 #                Parser::Ruby24::Racc_Runtime_Core_Version
-#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Version
 #                Parser::Ruby24::Racc_Runtime_Core_Id_C
 # uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Revision_C
 # Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Revision_R
 #                Parser::Ruby24::Racc_Runtime_Revision
-#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Core_Version
 #                Parser::Ruby24::Racc_Runtime_Core_Id_C
 # uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Revision_R
 # Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Revision_C
 #                Parser::Ruby24::Racc_Runtime_Revision
-#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Core_Version
 # uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Version
 # Did you mean?  Parser::Ruby24::Racc_Runtime_Revision
 #                Parser::Ruby24::Racc_Runtime_Core_Revision
-#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Core_Revision_C
 #                Parser::Ruby24::Racc_Runtime_Core_Revision_R
 #                Parser::Ruby24::Racc_Runtime_Version
@@ -2513,28 +2584,28 @@
 #                Parser::Ruby27::Racc_Runtime_Core_Revision_R
 #                Parser::Ruby27::Racc_Runtime_Revision
 #                Parser::Ruby27::Racc_Runtime_Core_Version
-#                Parser::Ruby27::Racc_Runtime_Core_Version_R
 #                Parser::Ruby27::Racc_Runtime_Core_Version_C
+#                Parser::Ruby27::Racc_Runtime_Core_Version_R
 #                Parser::Ruby27::Racc_Runtime_Version
 #                Parser::Ruby27::Racc_Runtime_Core_Id_C
 # uninitialized constant Parser::Ruby27::Racc_Runtime_Core_Revision_C
 # Did you mean?  Parser::Ruby27::Racc_Runtime_Core_Revision_R
 #                Parser::Ruby27::Racc_Runtime_Revision
-#                Parser::Ruby27::Racc_Runtime_Core_Version_R
 #                Parser::Ruby27::Racc_Runtime_Core_Version_C
+#                Parser::Ruby27::Racc_Runtime_Core_Version_R
 #                Parser::Ruby27::Racc_Runtime_Core_Version
 #                Parser::Ruby27::Racc_Runtime_Core_Id_C
 # uninitialized constant Parser::Ruby27::Racc_Runtime_Core_Revision_R
 # Did you mean?  Parser::Ruby27::Racc_Runtime_Core_Revision_C
 #                Parser::Ruby27::Racc_Runtime_Revision
-#                Parser::Ruby27::Racc_Runtime_Core_Version_R
 #                Parser::Ruby27::Racc_Runtime_Core_Version_C
+#                Parser::Ruby27::Racc_Runtime_Core_Version_R
 #                Parser::Ruby27::Racc_Runtime_Core_Version
 # uninitialized constant Parser::Ruby27::Racc_Runtime_Core_Version
 # Did you mean?  Parser::Ruby27::Racc_Runtime_Revision
 #                Parser::Ruby27::Racc_Runtime_Core_Revision
-#                Parser::Ruby27::Racc_Runtime_Core_Version_R
 #                Parser::Ruby27::Racc_Runtime_Core_Version_C
+#                Parser::Ruby27::Racc_Runtime_Core_Version_R
 #                Parser::Ruby27::Racc_Runtime_Core_Revision_C
 #                Parser::Ruby27::Racc_Runtime_Core_Revision_R
 #                Parser::Ruby27::Racc_Runtime_Version
@@ -2650,6 +2721,21 @@
 # uninitialized constant REXML::XPathParser::NMTOKENS
 # Did you mean?  REXML::XMLTokens
 # uninitialized constant REXML::XPathParser::REFERENCE
+# uninitialized constant RSpec::Core::ExampleGroup::BE_PREDICATE_REGEX
+# uninitialized constant RSpec::Core::ExampleGroup::DYNAMIC_MATCHER_REGEX
+# uninitialized constant RSpec::Core::ExampleGroup::HAS_REGEX
+# uninitialized constant RSpec::Core::ExampleGroup::NOT_YET_IMPLEMENTED
+# uninitialized constant RSpec::Core::ExampleGroup::NO_REASON_GIVEN
+# uninitialized constant RSpec::Matchers::BuiltIn::BePredicate::UNDEFINED
+# uninitialized constant RSpec::Matchers::BuiltIn::Equal::UNDEFINED
+# uninitialized constant RSpec::Matchers::BuiltIn::Has::UNDEFINED
+# wrong constant name <Class:Differ>
+# wrong constant name color?
+# wrong constant name diff
+# wrong constant name diff_as_object
+# wrong constant name diff_as_string
+# wrong constant name initialize
+# wrong constant name <static-init>
 # wrong constant name <Class:CparseParams>
 # wrong constant name <static-init>
 # uninitialized constant Rake::DSL::DEFAULT
@@ -2763,28 +2849,28 @@
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
 # Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
 # Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
 # uninitialized constant RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
 # Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
@@ -2821,68 +2907,68 @@
 # Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Main_Parsing_Routine
 # uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Id_C
 # Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_C
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_C
 # uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision
 # Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_R
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_C
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_R
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Version
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Id_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
-# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
+# Did you mean?  RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_R
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Id_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_R
-# Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
+# Did you mean?  RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_R
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version
 # uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version
 # Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_C
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_R
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Version
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Id_C
@@ -2892,41 +2978,41 @@
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Version
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Id_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_R
 # Did you mean?  RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version_C
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_C
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version_R
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_C
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision_R
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision_C
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Version
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Id_C
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
 # Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Version
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
-#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Version
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Revision
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Revision
 # uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Type
@@ -2935,8 +3021,8 @@
 # Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_Runtime_Version
 #                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Revision
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Revision
-#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
 #                RuboCop::AST::NodePattern::Parser::WithMeta::Racc_Runtime_Core_Version
+#                RuboCop::AST::NodePattern::Parser::Racc_Runtime_Core_Version
 # uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_YY_Parse_Method
 # Did you mean?  RuboCop::AST::NodePattern::Parser::Racc_YY_Parse_Method
 # uninitialized constant RuboCop::AST::NodePattern::Parser::WithMeta::Racc_arg
@@ -3640,6 +3726,164 @@
 # uninitialized constant RuboCop::Cop::Performance::TimesMap::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Performance::UnfreezeString::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Performance::UriDefaultParser::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::AlignLeftLetBrace::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::AlignLeftLetBrace::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::AlignRightLetBrace::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::AlignRightLetBrace::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::AnyInstance::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::AroundBlock::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::AroundBlock::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::Be::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::Be::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::BeEql::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::BeforeAfterAll::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::Capybara::CurrentPathExpectation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::Capybara::FeatureMethods::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::Capybara::FeatureMethods::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::Capybara::VisibilityMatcher::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ContextMethod::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ContextMethod::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::ContextWording::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ContextWording::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::DescribeClass::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::DescribeClass::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::DescribeMethod::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::DescribeMethod::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::DescribeSymbol::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::DescribedClass::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::DescribedClass::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::DescribedClassModuleWrapping::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::DescribedClassModuleWrapping::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::Dialect::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::Dialect::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::EmptyExampleGroup::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::EmptyExampleGroup::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::EmptyHook::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::RSpec::EmptyHook::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::EmptyHook::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::EmptyLineAfterExample::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::RSpec::EmptyLineAfterExample::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::EmptyLineAfterExample::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::EmptyLineAfterExampleGroup::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::RSpec::EmptyLineAfterExampleGroup::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::EmptyLineAfterExampleGroup::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::EmptyLineAfterFinalLet::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::RSpec::EmptyLineAfterFinalLet::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::EmptyLineAfterFinalLet::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::EmptyLineAfterHook::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::RSpec::EmptyLineAfterHook::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::EmptyLineAfterHook::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::EmptyLineAfterSubject::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::RSpec::EmptyLineAfterSubject::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::EmptyLineAfterSubject::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::ExampleLength::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ExampleLength::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::ExampleWithoutDescription::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ExampleWithoutDescription::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::ExampleWording::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ExampleWording::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::ExpectActual::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ExpectActual::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::ExpectChange::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ExpectInHook::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ExpectInHook::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::ExpectOutput::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ExpectOutput::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::FactoryBot::AttributeDefinedStatically::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::FactoryBot::AttributeDefinedStatically::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::FactoryBot::CreateList::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::FactoryBot::FactoryClassName::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::FilePath::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::FilePath::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::Focus::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::RSpec::Focus::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::Focus::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::HookArgument::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::HookArgument::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::HooksBeforeExamples::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::HooksBeforeExamples::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::ImplicitBlockExpectation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ImplicitExpect::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ImplicitExpect::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::ImplicitSubject::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::InstanceSpy::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::InstanceSpy::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::InstanceVariable::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::InstanceVariable::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::ItBehavesLike::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::IteratedExpectation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::IteratedExpectation::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::LeadingSubject::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::LeadingSubject::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::LeakyConstantDeclaration::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::LeakyConstantDeclaration::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::LetBeforeExamples::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::LetBeforeExamples::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::LetSetup::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::LetSetup::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::MessageChain::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::MessageExpectation::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::MessageSpies::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::MessageSpies::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::MissingExampleGroupArgument::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::MissingExampleGroupArgument::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::MultipleDescribes::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::MultipleDescribes::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::MultipleExpectations::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::MultipleExpectations::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::MultipleMemoizedHelpers::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::MultipleMemoizedHelpers::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::MultipleSubjects::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::RSpec::MultipleSubjects::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::MultipleSubjects::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::NamedSubject::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::NamedSubject::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::NestedGroups::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::NestedGroups::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::NotToNot::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::OverwritingSetup::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::OverwritingSetup::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::Pending::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::Pending::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::ReceiveCounts::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ReceiveNever::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::RepeatedDescription::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::RepeatedDescription::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::RepeatedExample::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::RepeatedExample::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::RepeatedExampleGroupBody::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::RepeatedExampleGroupBody::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::RepeatedExampleGroupDescription::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::RepeatedExampleGroupDescription::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::RepeatedIncludeExample::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::RepeatedIncludeExample::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::ReturnFromStub::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ScatteredLet::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ScatteredLet::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::ScatteredSetup::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::ScatteredSetup::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::SharedContext::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::SharedContext::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::SingleArgumentMessageChain::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::StubbedMock::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::StubbedMock::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::SubjectStub::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::SubjectStub::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::UnspecifiedException::LITERAL_REGEX
+# wrong constant name <static-init>
+# wrong constant name all
+# wrong constant name <static-init>
+# wrong constant name all
+# uninitialized constant RuboCop::Cop::RSpec::VariableDefinition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::VariableDefinition::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::VariableName::FORMATS
+# uninitialized constant RuboCop::Cop::RSpec::VariableName::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::VariableName::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::RSpec::VerifiedDoubles::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::VoidExpect::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::Yield::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::RSpec::Yield::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::Yield::RESTRICT_ON_SEND
 # uninitialized constant RuboCop::Cop::Rake::ClassDefinitionInTask::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Rake::ClassDefinitionInTask::RESTRICT_ON_SEND
 # uninitialized constant RuboCop::Cop::Rake::Desc::LITERAL_REGEX
@@ -3655,6 +3899,21 @@
 # uninitialized constant RuboCop::Cop::Security::MarshalLoad::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Security::Open::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Security::YAMLLoad::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Sorbet::EnforceSigilOrder::BYTE_ORDER_MARK
+# uninitialized constant RuboCop::Cop::Sorbet::EnforceSigilOrder::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Sorbet::EnforceSigilOrder::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Sorbet::EnforceSigilOrder::SIGIL_REGEX
+# uninitialized constant RuboCop::Cop::Sorbet::EnforceSigilOrder::STRICTNESS_LEVELS
+# uninitialized constant RuboCop::Cop::Sorbet::ForbidIncludeConstLiteral::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Sorbet::ForbidIncludeConstLiteral::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Sorbet::ForbidSuperclassConstLiteral::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Sorbet::ForbidSuperclassConstLiteral::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Sorbet::ForbidUntypedStructProps::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Sorbet::ForbidUntypedStructProps::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Sorbet::SignatureBuildOrder::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Sorbet::SignatureBuildOrder::RESTRICT_ON_SEND
+# uninitialized constant RuboCop::Cop::Sorbet::ValidSigil::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::Sorbet::ValidSigil::RESTRICT_ON_SEND
 # uninitialized constant RuboCop::Cop::SpaceBeforePunctuation::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Style::AccessModifierDeclarations::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::AccessorGrouping::BYTE_ORDER_MARK
@@ -4302,12 +4561,12 @@
 # Did you mean?  URI::SCHEME
 # uninitialized constant URI::File::TBLDECWWWCOMP_
 # Did you mean?  URI::File::TBLENCWWWCOMP_
-#                URI::TBLENCWWWCOMP_
 #                URI::TBLDECWWWCOMP_
+#                URI::TBLENCWWWCOMP_
 # uninitialized constant URI::File::TBLENCWWWCOMP_
 # Did you mean?  URI::File::TBLDECWWWCOMP_
-#                URI::TBLENCWWWCOMP_
 #                URI::TBLDECWWWCOMP_
+#                URI::TBLENCWWWCOMP_
 # uninitialized constant URI::File::UNSAFE
 # Did you mean?  URI::UNSAFE
 # uninitialized constant URI::File::URI_REF

@@ -2492,6 +2492,206 @@ class Class
   def json_creatable?(); end
 end
 
+class DRb::DRbArray
+  def _dump(lv); end
+end
+
+class DRb::DRbArray
+  def self._load(s); end
+end
+
+class DRb::DRbConn
+  def alive?(); end
+
+  def close(); end
+
+  def initialize(remote_uri); end
+
+  def send_message(ref, msg_id, arg, block); end
+
+  def uri(); end
+end
+
+class DRb::DRbConn
+  def self.make_pool(); end
+
+  def self.open(remote_uri); end
+
+  def self.stop_pool(); end
+end
+
+class DRb::DRbMessage
+  def dump(obj, error=T.unsafe(nil)); end
+
+  def initialize(config); end
+
+  def load(soc); end
+
+  def recv_reply(stream); end
+
+  def recv_request(stream); end
+
+  def send_reply(stream, succ, result); end
+
+  def send_request(stream, ref, msg_id, arg, b); end
+end
+
+class DRb::DRbObject
+  def ==(other); end
+
+  def eql?(other); end
+
+  def initialize(obj, uri=T.unsafe(nil)); end
+end
+
+class DRb::DRbObject
+  def self.prepare_backtrace(uri, result); end
+
+  def self.with_friend(uri); end
+end
+
+module DRb::DRbProtocol
+  def self.auto_load(uri); end
+end
+
+class DRb::DRbRemoteError
+  def initialize(error); end
+end
+
+class DRb::DRbServer
+  def initialize(uri=T.unsafe(nil), front=T.unsafe(nil), config_or_acl=T.unsafe(nil)); end
+
+  def safe_level(); end
+end
+
+class DRb::DRbServer::InvokeMethod
+  include ::DRb::DRbServer::InvokeMethod18Mixin
+  def initialize(drb_server, client); end
+
+  def perform(); end
+end
+
+class DRb::DRbServer::InvokeMethod
+end
+
+module DRb::DRbServer::InvokeMethod18Mixin
+  def block_yield(x); end
+
+  def perform_with_block(); end
+end
+
+module DRb::DRbServer::InvokeMethod18Mixin
+end
+
+class DRb::DRbServer
+  def self.default_safe_level(level); end
+
+  def self.make_config(hash=T.unsafe(nil)); end
+end
+
+class DRb::DRbTCPSocket
+  def accept(); end
+
+  def alive?(); end
+
+  def close(); end
+
+  def initialize(uri, soc, config=T.unsafe(nil)); end
+
+  def peeraddr(); end
+
+  def recv_reply(); end
+
+  def recv_request(); end
+
+  def send_reply(succ, result); end
+
+  def send_request(ref, msg_id, arg, b); end
+
+  def set_sockopt(soc); end
+
+  def shutdown(); end
+
+  def stream(); end
+
+  def uri(); end
+end
+
+class DRb::DRbTCPSocket
+  def self.getservername(); end
+
+  def self.open(uri, config); end
+
+  def self.open_server(uri, config); end
+
+  def self.open_server_inaddr_any(host, port); end
+
+  def self.parse_uri(uri); end
+
+  def self.uri_option(uri, config); end
+end
+
+class DRb::DRbURIOption
+  def ==(other); end
+
+  def eql?(other); end
+
+  def initialize(option); end
+
+  def option(); end
+end
+
+class DRb::DRbURIOption
+end
+
+module DRb::DRbUndumped
+  def _dump(dummy); end
+end
+
+class DRb::DRbUnknown
+  def _dump(lv); end
+end
+
+class DRb::DRbUnknown
+  def self._load(s); end
+end
+
+class DRb::DRbUnknownError
+  def _dump(lv); end
+
+  def initialize(unknown); end
+end
+
+class DRb::DRbUnknownError
+  def self._load(s); end
+end
+
+class DRb::ThreadObject
+  include ::MonitorMixin
+  def _execute(); end
+
+  def alive?(); end
+
+  def initialize(&blk); end
+
+  def kill(); end
+
+  def method_missing(msg, *arg, &blk); end
+end
+
+class DRb::ThreadObject
+end
+
+module DRb
+  def self.mutex(); end
+end
+
+DRbIdConv = DRb::DRbIdConv
+
+DRbObject = DRb::DRbObject
+
+DRbUndumped = DRb::DRbUndumped
+
 class Date
   def infinite?(); end
 end
@@ -4163,6 +4363,8 @@ end
 class Net::HTTPRangeNotSatisfiable
 end
 
+Net::HTTPRedirection::EXCEPTION_TYPE = Net::HTTPRetriableError
+
 Net::HTTPRedirectionCode = Net::HTTPRedirection
 
 Net::HTTPRequestURITooLarge = Net::HTTPURITooLong
@@ -4176,6 +4378,8 @@ Net::HTTPServerError::EXCEPTION_TYPE = Net::HTTPFatalError
 Net::HTTPServerErrorCode = Net::HTTPServerError
 
 Net::HTTPSession = Net::HTTP
+
+Net::HTTPSuccess::EXCEPTION_TYPE = Net::HTTPError
 
 Net::HTTPSuccessCode = Net::HTTPSuccess
 
@@ -4592,6 +4796,292 @@ end
 
 class REXML::XPathParser
   DEBUG = ::T.let(nil, ::T.untyped)
+end
+
+module RSpec
+  MODULES_TO_AUTOLOAD = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::CallerFilter
+  ADDITIONAL_TOP_LEVEL_FILES = ::T.let(nil, ::T.untyped)
+  IGNORE_REGEX = ::T.let(nil, ::T.untyped)
+  LIB_REGEX = ::T.let(nil, ::T.untyped)
+  RSPEC_LIBS = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Core::Configuration
+  DEFAULT_FORMATTER = ::T.let(nil, ::T.untyped)
+  FAILED_STATUS = ::T.let(nil, ::T.untyped)
+  MOCKING_ADAPTERS = ::T.let(nil, ::T.untyped)
+  PASSED_STATUS = ::T.let(nil, ::T.untyped)
+  PENDING_STATUS = ::T.let(nil, ::T.untyped)
+  RAISE_ERROR_WARNING_NOTIFIER = ::T.let(nil, ::T.untyped)
+  UNKNOWN_STATUS = ::T.let(nil, ::T.untyped)
+  VALID_STATUSES = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Core::ConfigurationOptions
+  OPTIONS_ORDER = ::T.let(nil, ::T.untyped)
+  UNFORCED_OPTIONS = ::T.let(nil, ::T.untyped)
+  UNPROCESSABLE_OPTIONS = ::T.let(nil, ::T.untyped)
+end
+
+RSpec::Core::Example::AllExceptionsExcludingDangerousOnesOnRubiesThatAllowIt = RSpec::Support::AllExceptionsExceptOnesWeMustNotRescue
+
+class RSpec::Core::ExampleGroup
+  include ::RSpec::Core::MockingAdapters::RSpec
+  include ::RSpec::Mocks::ExampleMethods
+  include ::RSpec::Mocks::ArgumentMatchers
+  include ::RSpec::Mocks::ExampleMethods::ExpectHost
+  include ::RSpec::Matchers
+  INSTANCE_VARIABLE_TO_IGNORE = ::T.let(nil, ::T.untyped)
+end
+
+RSpec::Core::ExclusionRules = RSpec::Core::FilterRules
+
+class RSpec::Core::FilterRules
+  PROC_HEX_NUMBER = ::T.let(nil, ::T.untyped)
+  PROJECT_DIR = ::T.let(nil, ::T.untyped)
+end
+
+module RSpec::Core::Formatters::ConsoleCodes
+  VT100_CODES = ::T.let(nil, ::T.untyped)
+  VT100_CODE_VALUES = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Core::Formatters::DeprecationFormatter
+  DEPRECATION_STREAM_NOTICE = ::T.let(nil, ::T.untyped)
+  RAISE_ERROR_CONFIG_NOTICE = ::T.let(nil, ::T.untyped)
+  TOO_MANY_WARNINGS_NOTICE = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Core::Formatters::DeprecationFormatter::DelayedPrinter
+  TOO_MANY_USES_LIMIT = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Core::Formatters::ExceptionPresenter
+  PENDING_DETAIL_FORMATTER = ::T.let(nil, ::T.untyped)
+end
+
+module RSpec::Core::Formatters::Helpers
+  DEFAULT_PRECISION = ::T.let(nil, ::T.untyped)
+  SUB_SECOND_PRECISION = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Core::Formatters::HtmlPrinter
+  GLOBAL_SCRIPTS = ::T.let(nil, ::T.untyped)
+  GLOBAL_STYLES = ::T.let(nil, ::T.untyped)
+  HTML_HEADER = ::T.let(nil, ::T.untyped)
+  REPORT_HEADER = ::T.let(nil, ::T.untyped)
+end
+
+module RSpec::Core::Formatters::SyntaxHighlighter::CodeRayImplementation
+  RESET_CODE = ::T.let(nil, ::T.untyped)
+end
+
+RSpec::Core::Formatters::SyntaxHighlighter::WindowsImplementation = RSpec::Core::Formatters::SyntaxHighlighter::NoSyntaxHighlightingImplementation
+
+class RSpec::Core::Hooks::HookCollections
+  EMPTY_HOOK_ARRAY = ::T.let(nil, ::T.untyped)
+  HOOK_TYPES = ::T.let(nil, ::T.untyped)
+  SCOPES = ::T.let(nil, ::T.untyped)
+  SCOPE_ALIASES = ::T.let(nil, ::T.untyped)
+end
+
+module RSpec::Core::Metadata
+  RESERVED_KEYS = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Core::Ordering::Random
+  MAX_32_BIT = ::T.let(nil, ::T.untyped)
+end
+
+module RSpec::Core::Pending
+  NOT_YET_IMPLEMENTED = ::T.let(nil, ::T.untyped)
+  NO_REASON_GIVEN = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Core::Profiler
+  NOTIFICATIONS = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Core::Reporter
+  RSPEC_NOTIFICATIONS = ::T.let(nil, ::T.untyped)
+end
+
+module RSpec::Core::ShellEscape
+  SHELLS_ALLOWING_UNQUOTED_IDS = ::T.let(nil, ::T.untyped)
+end
+
+module RSpec::Core::Version
+  STRING = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Expectations::Configuration
+  FALSE_POSITIVE_BEHAVIOURS = ::T.let(nil, ::T.untyped)
+end
+
+RSpec::Expectations::LegacyMacherAdapter = RSpec::Expectations::LegacyMatcherAdapter
+
+class RSpec::Expectations::MultipleExpectationsNotMetError
+  include ::RSpec::Core::MultipleExceptionError::InterfaceTag
+end
+
+module RSpec::Expectations::Version
+  STRING = ::T.let(nil, ::T.untyped)
+end
+
+module RSpec::Matchers
+  BE_PREDICATE_REGEX = ::T.let(nil, ::T.untyped)
+  DYNAMIC_MATCHER_REGEX = ::T.let(nil, ::T.untyped)
+  HAS_REGEX = ::T.let(nil, ::T.untyped)
+end
+
+RSpec::Matchers::AliasedNegatedMatcher::DefaultFailureMessages = RSpec::Matchers::BuiltIn::BaseMatcher::DefaultFailureMessages
+
+class RSpec::Matchers::BuiltIn::BaseMatcher
+  UNDEFINED = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Matchers::BuiltIn::BePredicate
+  REGEX = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Matchers::BuiltIn::Equal
+  LITERAL_SINGLETONS = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Matchers::BuiltIn::Has
+  REGEX = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Matchers::BuiltIn::RaiseError
+  UndefinedValue = ::T.let(nil, ::T.untyped)
+end
+
+RSpec::Matchers::BuiltIn::SpecificValuesChange::MATCH_ANYTHING = BasicObject
+
+RSpec::Matchers::BuiltIn::StartAndEndWith = RSpec::Matchers::BuiltIn::StartOrEndWith
+
+module RSpec::Matchers::DSL::Macros
+  RAISE_NOTIFIER = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Matchers::ExpectedsForMultipleDiffs
+  DEFAULT_DIFF_LABEL = ::T.let(nil, ::T.untyped)
+  DESCRIPTION_MAX_LENGTH = ::T.let(nil, ::T.untyped)
+end
+
+module RSpec::Mocks
+  DEFAULT_CALLBACK_INVOCATION_STRATEGY = ::T.let(nil, ::T.untyped)
+  IGNORED_BACKTRACE_LINE = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Mocks::AnyInstance::PositiveExpectationChain
+  ExpectationInvocationOrder = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Mocks::AnyInstance::Recorder
+  include ::T::CompatibilityPatches::RSpecCompatibility::RecorderExtensions
+end
+
+class RSpec::Mocks::AnyInstance::StubChain
+  EmptyInvocationOrder = ::T.let(nil, ::T.untyped)
+  InvocationOrder = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Mocks::ArgumentListMatcher
+  MATCH_ALL = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Mocks::Matchers::HaveReceived
+  ARGS_CONSTRAINTS = ::T.let(nil, ::T.untyped)
+  CONSTRAINTS = ::T.let(nil, ::T.untyped)
+  COUNT_CONSTRAINTS = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Mocks::MethodDouble
+  include ::T::CompatibilityPatches::RSpecCompatibility::MethodDoubleExtensions
+end
+
+class RSpec::Mocks::ObjectReference
+  MODULE_NAME_METHOD = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Mocks::Proxy
+  DEFAULT_MESSAGE_EXPECTATION_OPTS = ::T.let(nil, ::T.untyped)
+end
+
+module RSpec::Mocks::Version
+  STRING = ::T.let(nil, ::T.untyped)
+end
+
+RSpec::SharedContext = RSpec::Core::SharedContext
+
+module RSpec::Support
+  DEFAULT_FAILURE_NOTIFIER = ::T.let(nil, ::T.untyped)
+  DEFAULT_WARNING_NOTIFIER = ::T.let(nil, ::T.untyped)
+  KERNEL_METHOD_METHOD = ::T.let(nil, ::T.untyped)
+end
+
+module RSpec::Support::AllExceptionsExceptOnesWeMustNotRescue
+  AVOID_RESCUING = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Support::Differ
+  def color?(); end
+
+  def diff(actual, expected); end
+
+  def diff_as_object(actual, expected); end
+
+  def diff_as_string(actual, expected); end
+
+  def initialize(opts=T.unsafe(nil)); end
+end
+
+class RSpec::Support::Differ
+end
+
+class RSpec::Support::EncodedString
+  REPLACE = ::T.let(nil, ::T.untyped)
+  US_ASCII = ::T.let(nil, ::T.untyped)
+  UTF_8 = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Support::MethodSignature
+  INFINITY = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Support::Mutex
+  NEW_MUTEX_METHOD = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Support::ObjectFormatter
+  ELLIPSIS = ::T.let(nil, ::T.untyped)
+  INSPECTOR_CLASSES = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Support::ObjectFormatter::DateTimeInspector
+  FORMAT = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Support::ObjectFormatter::TimeInspector
+  FORMAT = ::T.let(nil, ::T.untyped)
+end
+
+class RSpec::Support::ObjectFormatter::UninspectableObjectInspector
+  OBJECT_ID_FORMAT = ::T.let(nil, ::T.untyped)
+end
+
+RSpec::Support::StrictSignatureVerifier = RSpec::Support::MethodSignatureVerifier
+
+module RSpec::Support::Version
+  STRING = ::T.let(nil, ::T.untyped)
+end
+
+module RSpec::Version
+  STRING = ::T.let(nil, ::T.untyped)
 end
 
 module Racc
@@ -5207,22 +5697,41 @@ module RuboCop::AST::NodePattern::Sets
   SET_0_1_2 = ::T.let(nil, ::T.untyped)
   SET_10_10 = ::T.let(nil, ::T.untyped)
   SET_1_1 = ::T.let(nil, ::T.untyped)
+  SET_1_2 = ::T.let(nil, ::T.untyped)
+  SET_ABSTRACT_OVERRIDE_OVERRIDABLE_ETC = ::T.let(nil, ::T.untyped)
   SET_ADD_DEPENDENCY_ADD_RUNTIME_DEPENDENCY_ADD_DEVELOPMENT_DEPENDENCY = ::T.let(nil, ::T.untyped)
+  SET_ALL_CONTEXT = ::T.let(nil, ::T.untyped)
+  SET_AND_RETURN_AND_RAISE_AND_THROW_ETC = ::T.let(nil, ::T.untyped)
+  SET_ANY_ALL_NORETURN_ETC = ::T.let(nil, ::T.untyped)
+  SET_ATTR_READER_ATTR_WRITER_ATTR_ACCESSOR = ::T.let(nil, ::T.untyped)
   SET_ATTR_READER_ATTR_WRITER_ATTR_ACCESSOR_ATTR = ::T.let(nil, ::T.untyped)
+  SET_BACKGROUND_SCENARIO_XSCENARIO_ETC = ::T.let(nil, ::T.untyped)
+  SET_BEFORE_AFTER = ::T.let(nil, ::T.untyped)
+  SET_BE_EQ_EQL_EQUAL = ::T.let(nil, ::T.untyped)
+  SET_BE_TRUTHY_BE_FALSEY_BE_FALSY_ETC = ::T.let(nil, ::T.untyped)
   SET_CALLER_CALLER_LOCATIONS = ::T.let(nil, ::T.untyped)
+  SET_CALL_RUN = ::T.let(nil, ::T.untyped)
   SET_CAPTURE2_CAPTURE2E_CAPTURE3_ETC = ::T.let(nil, ::T.untyped)
   SET_CIPHER_DIGEST = ::T.let(nil, ::T.untyped)
   SET_CLASS_EVAL_INSTANCE_EVAL = ::T.let(nil, ::T.untyped)
   SET_CLASS_EVAL_MODULE_EVAL = ::T.let(nil, ::T.untyped)
   SET_CLASS_MODULE = ::T.let(nil, ::T.untyped)
   SET_CLASS_MODULE_STRUCT = ::T.let(nil, ::T.untyped)
+  SET_CONSTANTIZE_CONSTANTS_CONST_GET = ::T.let(nil, ::T.untyped)
+  SET_CONTEXT_SHARED_CONTEXT = ::T.let(nil, ::T.untyped)
   SET_COUNT_LENGTH_SIZE = ::T.let(nil, ::T.untyped)
   SET_DEFINE_METHOD_DEFINE_SINGLETON_METHOD = ::T.let(nil, ::T.untyped)
+  SET_DESCRIBE_FEATURE = ::T.let(nil, ::T.untyped)
+  SET_DOUBLE_SPY = ::T.let(nil, ::T.untyped)
   SET_DOWNCASE_UPCASE = ::T.let(nil, ::T.untyped)
+  SET_EACH_EXAMPLE = ::T.let(nil, ::T.untyped)
   SET_EACH_WITH_INDEX_WITH_INDEX = ::T.let(nil, ::T.untyped)
   SET_EACH_WITH_OBJECT_WITH_OBJECT = ::T.let(nil, ::T.untyped)
   SET_ENUMERATOR_RATIONAL_COMPLEX_THREAD = ::T.let(nil, ::T.untyped)
   SET_ESCAPE_ENCODE_UNESCAPE_DECODE = ::T.let(nil, ::T.untyped)
+  SET_EXACTLY_AT_LEAST_AT_MOST = ::T.let(nil, ::T.untyped)
+  SET_EXPECT_ALLOW = ::T.let(nil, ::T.untyped)
+  SET_FACTORYGIRL_FACTORYBOT = ::T.let(nil, ::T.untyped)
   SET_FIRST_LAST__ETC = ::T.let(nil, ::T.untyped)
   SET_FIXNUM_BIGNUM = ::T.let(nil, ::T.untyped)
   SET_FLATTEN_FLATTEN = ::T.let(nil, ::T.untyped)
@@ -5235,6 +5744,7 @@ module RuboCop::AST::NodePattern::Sets
   SET_INSTANCE_EVAL_CLASS_EVAL_MODULE_EVAL = ::T.let(nil, ::T.untyped)
   SET_INSTANCE_EXEC_CLASS_EXEC_MODULE_EXEC = ::T.let(nil, ::T.untyped)
   SET_IO_FILE = ::T.let(nil, ::T.untyped)
+  SET_IS_EXPECTED_SHOULD_SHOULD_NOT = ::T.let(nil, ::T.untyped)
   SET_KEYS_VALUES = ::T.let(nil, ::T.untyped)
   SET_KEY_HAS_KEY_FETCH_ETC = ::T.let(nil, ::T.untyped)
   SET_LAST_FIRST = ::T.let(nil, ::T.untyped)
@@ -5249,16 +5759,25 @@ module RuboCop::AST::NodePattern::Sets
   SET_PIPELINE_PIPELINE_R_PIPELINE_RW_ETC = ::T.let(nil, ::T.untyped)
   SET_PRIVATE_PROTECTED = ::T.let(nil, ::T.untyped)
   SET_PRIVATE_PROTECTED_PUBLIC = ::T.let(nil, ::T.untyped)
+  SET_PROC_LAMBDA = ::T.let(nil, ::T.untyped)
+  SET_PROP_CONST = ::T.let(nil, ::T.untyped)
   SET_PUBLIC_CONSTANT_PRIVATE_CONSTANT = ::T.let(nil, ::T.untyped)
   SET_PUBLIC_PROTECTED_PRIVATE_MODULE_FUNCTION = ::T.let(nil, ::T.untyped)
+  SET_RAISE_ERROR_RAISE_EXCEPTION = ::T.let(nil, ::T.untyped)
   SET_RAISE_FAIL = ::T.let(nil, ::T.untyped)
   SET_RAISE_FAIL_THROW_ETC = ::T.let(nil, ::T.untyped)
+  SET_RECEIVE_HAVE_RECEIVED = ::T.let(nil, ::T.untyped)
+  SET_RECEIVE_MESSAGE_CHAIN_STUB_CHAIN = ::T.let(nil, ::T.untyped)
+  SET_RECEIVE_RECEIVE_MESSAGES_RECEIVE_MESSAGE_CHAIN_HAVE_RECEIVED = ::T.let(nil, ::T.untyped)
+  SET_RECEIVE_RECEIVE_MESSAGE_CHAIN = ::T.let(nil, ::T.untyped)
   SET_REDUCE_INJECT = ::T.let(nil, ::T.untyped)
   SET_REJECT_REJECT = ::T.let(nil, ::T.untyped)
   SET_REQUIRE_REQUIRE_RELATIVE = ::T.let(nil, ::T.untyped)
   SET_SELECT_FILTER_FIND_ALL_REJECT = ::T.let(nil, ::T.untyped)
   SET_SELECT_SELECT = ::T.let(nil, ::T.untyped)
   SET_SEND_PUBLIC_SEND___SEND__ = ::T.let(nil, ::T.untyped)
+  SET_SHOULD_SHOULD_NOT = ::T.let(nil, ::T.untyped)
+  SET_SKIP_PENDING = ::T.let(nil, ::T.untyped)
   SET_SORT_BY_SORT = ::T.let(nil, ::T.untyped)
   SET_SORT_MIN_MAX = ::T.let(nil, ::T.untyped)
   SET_SPAWN_SYSTEM = ::T.let(nil, ::T.untyped)
@@ -5272,6 +5791,7 @@ module RuboCop::AST::NodePattern::Sets
   SET_TO_ENUM_ENUM_FOR = ::T.let(nil, ::T.untyped)
   SET_TO_I_TO_F_TO_C = ::T.let(nil, ::T.untyped)
   SET_TRUE_FALSE = ::T.let(nil, ::T.untyped)
+  SET_TYPE_TEMPLATE_TYPE_MEMBER = ::T.let(nil, ::T.untyped)
   SET_ZERO_POSITIVE_NEGATIVE = ::T.let(nil, ::T.untyped)
   SET__ = ::T.let(nil, ::T.untyped)
   SET__AT_SLICE = ::T.let(nil, ::T.untyped)
@@ -6771,6 +7291,419 @@ class RuboCop::Cop::PreferredDelimiters
   PERCENT_LITERAL_TYPES = ::T.let(nil, ::T.untyped)
 end
 
+class RuboCop::Cop::RSpec::AlignLeftLetBrace
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::AlignRightLetBrace
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::AnyInstance
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::AroundBlock
+  MSG_NO_ARG = ::T.let(nil, ::T.untyped)
+  MSG_UNUSED_ARG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::Be
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::BeEql
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::BeforeAfterAll
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::Capybara::CurrentPathExpectation
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::Capybara::FeatureMethods
+  MAP = ::T.let(nil, ::T.untyped)
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::Capybara::VisibilityMatcher
+  CAPYBARA_MATCHER_METHODS = ::T.let(nil, ::T.untyped)
+  MSG_FALSE = ::T.let(nil, ::T.untyped)
+  MSG_TRUE = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ContextMethod
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ContextWording
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::DescribeClass
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::DescribeMethod
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::DescribeSymbol
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::DescribedClass
+  DESCRIBED_CLASS = ::T.let(nil, ::T.untyped)
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::DescribedClassModuleWrapping
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::Dialect
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::EmptyExampleGroup
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::EmptyHook
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::EmptyLineAfterExample
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::EmptyLineAfterExampleGroup
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::EmptyLineAfterFinalLet
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::EmptyLineAfterHook
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::EmptyLineAfterSubject
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ExampleLength
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ExampleWithoutDescription
+  MSG_ADD_DESCRIPTION = ::T.let(nil, ::T.untyped)
+  MSG_DEFAULT_ARGUMENT = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ExampleWording
+  IT_PREFIX = ::T.let(nil, ::T.untyped)
+  MSG_IT = ::T.let(nil, ::T.untyped)
+  MSG_SHOULD = ::T.let(nil, ::T.untyped)
+  SHOULD_PREFIX = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ExpectActual
+  COMPLEX_LITERALS = ::T.let(nil, ::T.untyped)
+  MSG = ::T.let(nil, ::T.untyped)
+  SIMPLE_LITERALS = ::T.let(nil, ::T.untyped)
+  SUPPORTED_MATCHERS = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ExpectChange
+  MSG_BLOCK = ::T.let(nil, ::T.untyped)
+  MSG_CALL = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ExpectInHook
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ExpectOutput
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+module RuboCop::Cop::RSpec::ExplicitHelper
+  BUILT_IN_MATCHERS = ::T.let(nil, ::T.untyped)
+  MSG_EXPLICIT = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::FactoryBot::AttributeDefinedStatically
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::FactoryBot::CreateList
+  MSG_CREATE_LIST = ::T.let(nil, ::T.untyped)
+  MSG_N_TIMES = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::FactoryBot::FactoryClassName
+  ALLOWED_CONSTANTS = ::T.let(nil, ::T.untyped)
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::FilePath
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::Focus
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::HookArgument
+  EXPLICIT_MSG = ::T.let(nil, ::T.untyped)
+  IMPLICIT_MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::HooksBeforeExamples
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ImplicitBlockExpectation
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ImplicitExpect
+  ENFORCED_REPLACEMENTS = ::T.let(nil, ::T.untyped)
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ImplicitSubject
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+module RuboCop::Cop::RSpec::InflectedHelper
+  MSG_INFLECTED = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::InstanceSpy
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::InstanceVariable
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ItBehavesLike
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::IteratedExpectation
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::LeadingSubject
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::LeakyConstantDeclaration
+  MSG_CLASS = ::T.let(nil, ::T.untyped)
+  MSG_CONST = ::T.let(nil, ::T.untyped)
+  MSG_MODULE = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::LetBeforeExamples
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::LetSetup
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::MessageChain
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::MessageExpectation
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+  SUPPORTED_STYLES = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::MessageSpies
+  MSG_HAVE_RECEIVED = ::T.let(nil, ::T.untyped)
+  MSG_RECEIVE = ::T.let(nil, ::T.untyped)
+  SUPPORTED_STYLES = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::MissingExampleGroupArgument
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::MultipleDescribes
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::MultipleExpectations
+  ANYTHING = ::T.let(nil, ::T.untyped)
+  MSG = ::T.let(nil, ::T.untyped)
+  TRUE = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::MultipleMemoizedHelpers
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::MultipleSubjects
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::NamedSubject
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::NestedGroups
+  DEPRECATED_MAX_KEY = ::T.let(nil, ::T.untyped)
+  DEPRECATION_WARNING = ::T.let(nil, ::T.untyped)
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::NotToNot
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::OverwritingSetup
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::Pending
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ReceiveCounts
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ReceiveNever
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::RepeatedDescription
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::RepeatedExample
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::RepeatedExampleGroupBody
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::RepeatedExampleGroupDescription
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::RepeatedIncludeExample
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ReturnFromStub
+  MSG_AND_RETURN = ::T.let(nil, ::T.untyped)
+  MSG_BLOCK = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ReturnFromStub::BlockBodyCorrector
+  NULL_BLOCK_BODY = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ScatteredLet
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::ScatteredSetup
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::SharedContext
+  MSG_CONTEXT = ::T.let(nil, ::T.untyped)
+  MSG_EXAMPLES = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::SharedExamples::Checker
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::SingleArgumentMessageChain
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::StubbedMock
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::SubjectStub
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::UnspecifiedException
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+module RuboCop::Cop::RSpec::Variable::Helpers
+end
+
+module RuboCop::Cop::RSpec::Variable::Helpers
+  def self.all(element); end
+end
+
+module RuboCop::Cop::RSpec::Variable::Subjects
+end
+
+module RuboCop::Cop::RSpec::Variable::Subjects
+  def self.all(element); end
+end
+
+class RuboCop::Cop::RSpec::VariableDefinition
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::VariableName
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::VerifiedDoubles
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::VoidExpect
+  MSG = ::T.let(nil, ::T.untyped)
+  RESTRICT_ON_SEND = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::Yield
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
 class RuboCop::Cop::Rake::ClassDefinitionInTask
   MSG = ::T.let(nil, ::T.untyped)
 end
@@ -6823,6 +7756,35 @@ end
 class RuboCop::Cop::Severity
   CODE_TABLE = ::T.let(nil, ::T.untyped)
   NAMES = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::Sorbet::EnforceSigilOrder
+  CODING_REGEX = ::T.let(nil, ::T.untyped)
+  FROZEN_REGEX = ::T.let(nil, ::T.untyped)
+  INDENT_REGEX = ::T.let(nil, ::T.untyped)
+  MAGIC_REGEX = ::T.let(nil, ::T.untyped)
+  PREFERRED_ORDER = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::Sorbet::ForbidIncludeConstLiteral
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::Sorbet::ForbidSuperclassConstLiteral
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::Sorbet::ForbidUntypedStructProps
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::Sorbet::SignatureBuildOrder
+  ORDER = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::Sorbet::ValidSigil
+  SIGIL_REGEX = ::T.let(nil, ::T.untyped)
+  STRICTNESS_LEVELS = ::T.let(nil, ::T.untyped)
 end
 
 module RuboCop::Cop::SpaceAfterPunctuation
@@ -7995,6 +8957,10 @@ end
 
 RuboCop::ProcessedSource = RuboCop::AST::ProcessedSource
 
+module RuboCop::RSpec::Version
+  STRING = ::T.let(nil, ::T.untyped)
+end
+
 module RuboCop::Rake
   CONFIG = ::T.let(nil, ::T.untyped)
   VERSION = ::T.let(nil, ::T.untyped)
@@ -8010,6 +8976,11 @@ end
 
 class RuboCop::Runner
   MAX_ITERATIONS = ::T.let(nil, ::T.untyped)
+end
+
+module RuboCop::Sorbet
+  CONFIG = ::T.let(nil, ::T.untyped)
+  VERSION = ::T.let(nil, ::T.untyped)
 end
 
 class RuboCop::TargetFinder

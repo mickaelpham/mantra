@@ -1,6 +1,6 @@
-# typed: false
+# typed: strict
 # frozen_string_literal: true
 
-class Product
-  attr_accessor :name
+class Product < T::Struct
+  prop :name, String
 end

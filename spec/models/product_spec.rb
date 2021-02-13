@@ -2,12 +2,10 @@
 # frozen_string_literal: true
 
 RSpec.describe Product do
-  let(:product_name) { 'My Product' }
+  let(:a_name)    { 'My Super Product' }
+  let(:a_product) { Product.new(name: a_name) }
 
   it 'has a name' do
-    a_product = Product.new
-    a_product.name = product_name
-
-    expect(a_product.name).to eq(product_name)
+    expect(a_product.name).to eq(a_name)
   end
 end
