@@ -1,12 +1,10 @@
-# typed: true
+# typed: strict
 # frozen_string_literal: true
 
-APP_ENV = ENV.fetch('APP_ENV', 'development')
-
-require 'forwardable'
 require 'sorbet-runtime'
 require 'zeitwerk'
 
+APP_ENV = T.let(ENV.fetch('APP_ENV', 'development'), String)
 require_relative 'database'
 
 loader = Zeitwerk::Loader.new

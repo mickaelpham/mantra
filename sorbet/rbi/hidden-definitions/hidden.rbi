@@ -4707,6 +4707,11 @@ class Product
   def self.inherited(s); end
 end
 
+class ProductRepository
+  extend ::T::Private::Methods::MethodHooks
+  extend ::T::Private::Methods::SingletonMethodHooks
+end
+
 class ProgressBar::Components::Bar
   DEFAULT_PROGRESS_MARK = ::T.let(nil, ::T.untyped)
   DEFAULT_REMAINDER_MARK = ::T.let(nil, ::T.untyped)
