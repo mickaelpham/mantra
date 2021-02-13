@@ -50,6 +50,7 @@ GEM
     sorbet-runtime (0.5.6287)
     sorbet-static (0.5.6287-universal-darwin-20)
     sorbet-static (0.5.6287-x86_64-linux)
+    sqlite3 (1.4.2)
     unicode-display_width (2.0.0)
     zeitwerk (2.4.2)
 
@@ -67,6 +68,7 @@ DEPENDENCIES
   rubocop-sorbet
   sorbet
   sorbet-runtime
+  sqlite3
   zeitwerk
 
 RUBY VERSION

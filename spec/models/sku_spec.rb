@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 RSpec.describe SKU do
-  let(:a_product) { Product.new(name: 'My Wonderful Product') }
+  let(:a_product) { Product.new(id: 1, name: 'My Wonderful Product') }
   let(:a_sku)     { SKU.new(product: a_product) }
 
   it 'has a default quantity' do

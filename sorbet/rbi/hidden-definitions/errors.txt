@@ -2665,6 +2665,7 @@
 # uninitialized constant Proc8
 # uninitialized constant Proc9
 # uninitialized constant Proc9
+# wrong constant name inherited
 # uninitialized constant ProgressBar::Outputs::NonTty::DEFAULT_OUTPUT_STREAM
 # uninitialized constant ProgressBar::Outputs::Tty::DEFAULT_OUTPUT_STREAM
 # uninitialized constant Psych::UnsafeYAML
@@ -4411,10 +4412,23 @@
 # wrong constant name enabled?
 # wrong constant name pause
 # wrong constant name resume
+# wrong constant name inherited
 # uninitialized constant SDBM
 # uninitialized constant SDBM
 # uninitialized constant SDBMError
 # uninitialized constant SDBMError
+# wrong constant name inherited
+# wrong constant name <Class:Blob>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant SQLite3::Database::AUTO_VACUUM_MODES
+# uninitialized constant SQLite3::Database::ENCODINGS
+# Did you mean?  Encoding
+# uninitialized constant SQLite3::Database::JOURNAL_MODES
+# uninitialized constant SQLite3::Database::LOCKING_MODES
+# uninitialized constant SQLite3::Database::SYNCHRONOUS_MODES
+# uninitialized constant SQLite3::Database::TEMP_STORE_MODES
+# uninitialized constant SQLite3::Database::WAL_CHECKPOINTS
 # uninitialized constant Scanf
 # uninitialized constant Scanf
 # wrong constant name ==
@@ -4436,6 +4450,7 @@
 # wrong constant name clone
 # wrong constant name __init__
 # uninitialized constant Socket::APPEND
+# Did you mean?  APP_ENV
 # uninitialized constant Socket::BINARY
 # uninitialized constant Socket::CREAT
 # uninitialized constant Socket::DSYNC
@@ -4497,6 +4512,7 @@
 # wrong constant name deconstruct_keys
 # wrong constant name filter
 # wrong constant name <Class:Struct>
+# wrong constant name inherited
 # uninitialized constant Sync
 # uninitialized constant Sync
 # uninitialized constant Sync_m

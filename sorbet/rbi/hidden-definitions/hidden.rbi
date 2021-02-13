@@ -4431,6 +4431,7 @@ class Object
   include ::JSON::Ext::Generator::GeneratorMethods::Object
   include ::PP::ObjectMixin
   def to_yaml(options=T.unsafe(nil)); end
+  APP_ENV = ::T.let(nil, ::T.untyped)
   ARGF = ::T.let(nil, ::T.untyped)
   ARGV = ::T.let(nil, ::T.untyped)
   CROSS_COMPILING = ::T.let(nil, ::T.untyped)
@@ -4700,6 +4701,10 @@ class Proc
   def >>(_); end
 
   def clone(); end
+end
+
+class Product
+  def self.inherited(s); end
 end
 
 class ProgressBar::Components::Bar
@@ -9028,6 +9033,121 @@ module RubyVM::MJIT
   def self.resume(); end
 end
 
+class Rule
+  def self.inherited(s); end
+end
+
+class SKU
+  def self.inherited(s); end
+end
+
+module SQLite3
+  SQLITE_VERSION = ::T.let(nil, ::T.untyped)
+  SQLITE_VERSION_NUMBER = ::T.let(nil, ::T.untyped)
+  VERSION = ::T.let(nil, ::T.untyped)
+end
+
+class SQLite3::Blob
+end
+
+class SQLite3::Blob
+end
+
+module SQLite3::Constants::ColumnType
+  BLOB = ::T.let(nil, ::T.untyped)
+  FLOAT = ::T.let(nil, ::T.untyped)
+  INTEGER = ::T.let(nil, ::T.untyped)
+  NULL = ::T.let(nil, ::T.untyped)
+  TEXT = ::T.let(nil, ::T.untyped)
+end
+
+module SQLite3::Constants::ErrorCode
+  ABORT = ::T.let(nil, ::T.untyped)
+  AUTH = ::T.let(nil, ::T.untyped)
+  BUSY = ::T.let(nil, ::T.untyped)
+  CANTOPEN = ::T.let(nil, ::T.untyped)
+  CONSTRAINT = ::T.let(nil, ::T.untyped)
+  CORRUPT = ::T.let(nil, ::T.untyped)
+  DONE = ::T.let(nil, ::T.untyped)
+  EMPTY = ::T.let(nil, ::T.untyped)
+  ERROR = ::T.let(nil, ::T.untyped)
+  FULL = ::T.let(nil, ::T.untyped)
+  INTERNAL = ::T.let(nil, ::T.untyped)
+  INTERRUPT = ::T.let(nil, ::T.untyped)
+  IOERR = ::T.let(nil, ::T.untyped)
+  LOCKED = ::T.let(nil, ::T.untyped)
+  MISMATCH = ::T.let(nil, ::T.untyped)
+  MISUSE = ::T.let(nil, ::T.untyped)
+  NOLFS = ::T.let(nil, ::T.untyped)
+  NOMEM = ::T.let(nil, ::T.untyped)
+  NOTFOUND = ::T.let(nil, ::T.untyped)
+  OK = ::T.let(nil, ::T.untyped)
+  PERM = ::T.let(nil, ::T.untyped)
+  PROTOCOL = ::T.let(nil, ::T.untyped)
+  READONLY = ::T.let(nil, ::T.untyped)
+  ROW = ::T.let(nil, ::T.untyped)
+  SCHEMA = ::T.let(nil, ::T.untyped)
+  TOOBIG = ::T.let(nil, ::T.untyped)
+end
+
+module SQLite3::Constants::Open
+  AUTOPROXY = ::T.let(nil, ::T.untyped)
+  CREATE = ::T.let(nil, ::T.untyped)
+  DELETEONCLOSE = ::T.let(nil, ::T.untyped)
+  EXCLUSIVE = ::T.let(nil, ::T.untyped)
+  FULLMUTEX = ::T.let(nil, ::T.untyped)
+  MAIN_DB = ::T.let(nil, ::T.untyped)
+  MAIN_JOURNAL = ::T.let(nil, ::T.untyped)
+  MASTER_JOURNAL = ::T.let(nil, ::T.untyped)
+  MEMORY = ::T.let(nil, ::T.untyped)
+  NOMUTEX = ::T.let(nil, ::T.untyped)
+  PRIVATECACHE = ::T.let(nil, ::T.untyped)
+  READONLY = ::T.let(nil, ::T.untyped)
+  READWRITE = ::T.let(nil, ::T.untyped)
+  SHAREDCACHE = ::T.let(nil, ::T.untyped)
+  SUBJOURNAL = ::T.let(nil, ::T.untyped)
+  TEMP_DB = ::T.let(nil, ::T.untyped)
+  TEMP_JOURNAL = ::T.let(nil, ::T.untyped)
+  TRANSIENT_DB = ::T.let(nil, ::T.untyped)
+  URI = ::T.let(nil, ::T.untyped)
+  WAL = ::T.let(nil, ::T.untyped)
+end
+
+module SQLite3::Constants::Open
+end
+
+module SQLite3::Constants::TextRep
+  ANY = ::T.let(nil, ::T.untyped)
+  DETERMINISTIC = ::T.let(nil, ::T.untyped)
+  UTF16 = ::T.let(nil, ::T.untyped)
+  UTF16BE = ::T.let(nil, ::T.untyped)
+  UTF16LE = ::T.let(nil, ::T.untyped)
+  UTF8 = ::T.let(nil, ::T.untyped)
+end
+
+class SQLite3::Database
+  NULL_TRANSLATOR = ::T.let(nil, ::T.untyped)
+end
+
+module SQLite3::Pragmas
+  AUTO_VACUUM_MODES = ::T.let(nil, ::T.untyped)
+  ENCODINGS = ::T.let(nil, ::T.untyped)
+  JOURNAL_MODES = ::T.let(nil, ::T.untyped)
+  LOCKING_MODES = ::T.let(nil, ::T.untyped)
+  SYNCHRONOUS_MODES = ::T.let(nil, ::T.untyped)
+  TEMP_STORE_MODES = ::T.let(nil, ::T.untyped)
+  WAL_CHECKPOINTS = ::T.let(nil, ::T.untyped)
+end
+
+module SQLite3::VersionProxy
+  BUILD = ::T.let(nil, ::T.untyped)
+  MAJOR = ::T.let(nil, ::T.untyped)
+  MINOR = ::T.let(nil, ::T.untyped)
+  STRING = ::T.let(nil, ::T.untyped)
+  TINY = ::T.let(nil, ::T.untyped)
+  VERSION = ::T.let(nil, ::T.untyped)
+end
+
 ScanError = StringScanner::Error
 
 class Set
@@ -9306,6 +9426,12 @@ Struct::Group = Etc::Group
 Struct::Passwd = Etc::Passwd
 
 Struct::Tms = Process::Tms
+
+class Subscription
+  extend ::T::Private::Methods::MethodHooks
+  extend ::T::Private::Methods::SingletonMethodHooks
+  def self.inherited(s); end
+end
 
 class TracePoint
   def eval_script(); end

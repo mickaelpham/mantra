@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 RSpec.describe Subscription do
-  let(:a_product)      { Product.new(name: 'My Wonderful Product') }
+  let(:a_product)      { Product.new(id: 1, name: 'My Wonderful Product') }
   let(:a_sku)          { SKU.new(product: a_product, quantity: 2) }
   let(:another_sku)    { SKU.new(product: a_product, quantity: 5) }
   let(:a_subscription) { Subscription.new(skus: [a_sku]) }
