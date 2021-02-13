@@ -20,3 +20,6 @@ RSpec.configure do |config|
 
   Kernel.srand config.seed
 end
+
+# Load the application
+require_relative '../config/application'
