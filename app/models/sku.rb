@@ -1,6 +1,7 @@
-# typed: true
+# typed: strict
 # frozen_string_literal: true
 
-class SKU
-  attr_accessor :product, :quantity
+class SKU < T::Struct
+  const :product, Product
+  prop :quantity, Integer, default: 1
 end

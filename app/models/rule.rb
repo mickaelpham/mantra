@@ -1,6 +1,8 @@
-# typed: true
+# typed: strict
 # frozen_string_literal: true
 
-class Rule
-  attr_accessor :configured_product, :optional_product, :quantity_constraint
+class Rule < T::Struct
+  const :configured, Product
+  const :optional, Product
+  const :quantity, QuantityConstraint
 end
