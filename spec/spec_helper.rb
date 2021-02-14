@@ -21,5 +21,11 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 end
 
+# Set the app environment as test
+APP_ENV = 'test'
+
 # Load the application
 require_relative '../config/application'
+
+# Set up the database schema
+require_relative '../db/schema'

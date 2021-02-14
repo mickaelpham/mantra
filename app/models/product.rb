@@ -2,6 +2,6 @@
 # frozen_string_literal: true
 
 class Product < T::Struct
-  const :id,   Integer
-  const :name, String
+  const :id,   T.nilable(Integer)
+  prop  :name, String
 end
