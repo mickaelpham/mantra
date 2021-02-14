@@ -30,10 +30,6 @@ RUN apk add glibc-${GLIBC_RELEASE_VERSION}.apk
 RUN gem install bundler --version ${BUNDLE_VERSION} \
   && rm -rf $GEM_HOME/cache/*
 
-# Install gem dependencies
-COPY Gemfile Gemfile.lock .ruby-version ./
-RUN bundle install
-
 # Copy the rest of the application
 COPY . .
 

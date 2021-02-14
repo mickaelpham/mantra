@@ -1,3 +1,4 @@
+# typed: strict
 # frozen_string_literal: true
 
 DB.conn.execute <<-SQL

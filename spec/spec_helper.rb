@@ -1,6 +1,8 @@
 # typed: strict
 # frozen_string_literal: true
 
+require 'factory_bot'
+
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
@@ -19,6 +21,12 @@ RSpec.configure do |config|
   config.order = :random
 
   Kernel.srand config.seed
+
+  config.include FactoryBot::Syntax::Methods
+
+  config.before(:suite) do
+    FactoryBot.find_definitions
+  end
 end
 
 # Set the app environment as test

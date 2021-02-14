@@ -2,11 +2,10 @@
 # frozen_string_literal: true
 
 RSpec.describe SKU do
-  let(:a_product) { Product.new(id: 1, name: 'My Wonderful Product') }
-  let(:a_sku)     { SKU.new(product: a_product) }
+  let(:a_sku) { build(:sku) }
 
-  it 'has a default quantity' do
-    expect(a_sku.quantity).to eq(1)
+  it 'has a quantity' do
+    expect(a_sku.quantity).to be_an(Integer)
   end
 
   it 'references a product' do
@@ -15,5 +14,9 @@ RSpec.describe SKU do
 
   it 'can have its quantity changed' do
     expect { a_sku.quantity += 2 }.to change { a_sku.quantity }.from(1).to(3)
+  end
+
+  it 'cannot have its product changed' do
+    expect(a_sku).to_not respond_to(:product=)
   end
 end

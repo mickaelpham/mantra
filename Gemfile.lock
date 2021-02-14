@@ -1,8 +1,20 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (6.1.2.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
     ast (2.4.2)
+    concurrent-ruby (1.1.8)
     diff-lcs (1.4.4)
+    factory_bot (6.1.0)
+      activesupport (>= 5.0.0)
+    i18n (1.8.9)
+      concurrent-ruby (~> 1.0)
+    minitest (5.14.3)
     parallel (1.20.1)
     parser (3.0.0.0)
       ast (~> 2.4.1)
@@ -51,6 +63,8 @@ GEM
     sorbet-static (0.5.6287-universal-darwin-20)
     sorbet-static (0.5.6287-x86_64-linux)
     sqlite3 (1.4.2)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
     unicode-display_width (2.0.0)
     zeitwerk (2.4.2)
 
@@ -59,6 +73,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  factory_bot
   rake
   rspec
   rubocop

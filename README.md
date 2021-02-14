@@ -28,5 +28,9 @@ with [RuboCop](https://rubocop.org/), and type checking is provided by
 Simply execute the following the run the test suite.
 
 ```sh
-docker-compose run --rm test rake && srb tc
+# Unit tests and code linting
+docker-compose run --rm test rake
+
+# Type checking
+docker-compose run --rm test srb tc
 ```
