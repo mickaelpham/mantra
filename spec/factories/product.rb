@@ -3,6 +3,8 @@
 
 FactoryBot.define do
   factory :product do
+    sequence(:id) { |n| n }
+
     name { 'My Automated Product' }
   end
 

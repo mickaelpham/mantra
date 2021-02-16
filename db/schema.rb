@@ -26,3 +26,30 @@ DB.conn.execute <<-SQL
     FOREIGN KEY(optional_product_id)   REFERENCES products(product_id)
   );
 SQL
+
+DB.conn.execute <<-SQL
+  DROP TABLE IF EXISTS subscriptions;
+SQL
+
+DB.conn.execute <<-SQL
+    CREATE TABLE subscriptions(
+      subscription_id INTEGER PRIMARY KEY,
+      starts_at       INTEGER NOT NULL,
+      ends_at         INTEGER NOT NULL
+    )
+SQL
+
+DB.conn.execute <<-SQL
+    DROP TABLE IF EXISTS skus;
+SQL
+
+DB.conn.execute <<-SQL
+  CREATE TABLE skus(
+    sku_id INTEGER PRIMARY KEY,
+    product_id INTEGER NOT NULL,
+    subscription_id INTEGER NOT NULL,
+    quantity INTEGER NOT NULL,
+    FOREIGN KEY(product_id) REFERENCES products(product_id),
+    FOREIGN KEY(subscription_id) REFERENCES subscriptions(subscription_id)
+  );
+SQL

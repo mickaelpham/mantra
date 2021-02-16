@@ -3,8 +3,10 @@
 
 FactoryBot.define do
   factory :rule do
-    configured { build(:product, name: 'Configured Product') }
-    optional   { build(:product, name: 'Optional Product') }
+    sequence(:id) { |n| n }
+
+    configured_product_id { build(:product, name: 'Configured Product').id }
+    optional_product_id   { build(:product, name: 'Optional Product').id }
 
     trait :wall_to_wall do
       quantity_constraint { QuantityConstraint::WallToWall }

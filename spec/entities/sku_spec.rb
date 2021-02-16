@@ -9,7 +9,7 @@ RSpec.describe SKU do
   end
 
   it 'references a product' do
-    expect(a_sku.product).to be_a(Product)
+    expect(a_sku.product_id).to be_an(Integer)
   end
 
   it 'can have its quantity changed' do
@@ -17,6 +17,6 @@ RSpec.describe SKU do
   end
 
   it 'cannot have its product changed' do
-    expect(a_sku).not_to respond_to(:product=)
+    expect(a_sku).not_to respond_to(:product_id=)
   end
 end

@@ -27,11 +27,7 @@ class ProductRepository
 
   sig { params(product: Product).returns(Product) }
   def save(product)
-    if product.id
-      update(product)
-    else
-      insert(product)
-    end
+    product.id ? update(product) : insert(product)
   end
 
   sig { params(id: Integer).returns(Integer) }

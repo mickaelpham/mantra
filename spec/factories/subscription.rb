@@ -3,7 +3,8 @@
 
 FactoryBot.define do
   factory :subscription do
-    skus      { build_list(:sku, 2) }
+    sequence(:id) { |n| n }
+
     starts_at { Time.now }
     ends_at   { starts_at + 24 * 30 * 86_400 }
 

@@ -4,16 +4,16 @@
 RSpec.describe Rule do
   let(:a_rule) { build(:rule) }
 
-  describe '#configured' do
-    subject { a_rule.configured }
+  describe '#configured_product_id' do
+    subject { a_rule.configured_product_id }
 
-    it { is_expected.to be_a(Product) }
+    it { is_expected.to be_an Integer }
   end
 
-  describe '#optional' do
-    subject { a_rule.optional }
+  describe '#optional_product_id' do
+    subject { a_rule.optional_product_id }
 
-    it { is_expected.to be_a(Product) }
+    it { is_expected.to be_an Integer }
   end
 
   describe '#quantity_constraint' do
@@ -41,8 +41,8 @@ RSpec.describe Rule do
 
     let(:skus) do
       [
-        build(:sku, product: a_rule.configured, quantity: configured_qty),
-        build(:sku, product: a_rule.optional,   quantity: optional_qty)
+        build(:sku, product_id: a_rule.configured_product_id, quantity: configured_qty),
+        build(:sku, product_id: a_rule.optional_product_id,   quantity: optional_qty)
       ]
     end
 
@@ -85,13 +85,13 @@ RSpec.describe Rule do
     end
 
     context 'when SKUs are matching configured but not optional product' do
-      let(:skus) { [build(:sku), build(:sku, product: a_rule.configured)] }
+      let(:skus) { [build(:sku), build(:sku, product_id: a_rule.configured_product_id)] }
 
       it { is_expected.to be(true) }
     end
 
     context 'when SKUs are matching optional but not configured product' do
-      let(:skus) { [build(:sku), build(:sku, product: a_rule.optional)] }
+      let(:skus) { [build(:sku), build(:sku, product_id: a_rule.optional_product_id)] }
 
       it { is_expected.to be(true) }
     end

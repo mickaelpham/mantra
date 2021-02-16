@@ -3,8 +3,11 @@
 
 FactoryBot.define do
   factory :sku, class: 'SKU' do
-    product  { build(:product) }
-    quantity { 1 }
+    sequence(:id) { |n| n }
+
+    product_id      { build(:product).id }
+    subscription_id { build(:subscription).id }
+    quantity        { 1 }
 
     initialize_with { new(**attributes) }
   end

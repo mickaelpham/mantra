@@ -12,8 +12,8 @@ RSpec.describe Customer do
   end
 
   describe '#subscriptions' do
-    subject { a_customer.subscriptions }
+    subject { a_customer.subscription_ids }
 
-    it { is_expected.to all(be_a Subscription) }
+    it { is_expected.to all(be_an Integer) }
   end
 end
