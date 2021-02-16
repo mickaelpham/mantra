@@ -8,10 +8,8 @@ class Subscription < T::Struct
   const :starts_at, Time,          default: Time.now
   const :ends_at,   Time,          default: Time.now + 24 * 86_400 * 30
 
-  sig { returns(NilClass) }
-  def valid?
-    # Find all the rules
-    # Only select applicable rules
-    # Ensure each rule constraint are met
+  sig { params(rules: T::Array[Rule]).returns(T::Boolean) }
+  def compliant_with?(rules)
+    rules.all? { |rule| rule.valid_given?(skus) }
   end
 end
