@@ -13,10 +13,10 @@ RSpec.describe SKU do
   end
 
   it 'can have its quantity changed' do
-    expect { a_sku.quantity += 2 }.to change { a_sku.quantity }.from(1).to(3)
+    expect { a_sku.quantity += 2 }.to change(a_sku, :quantity).from(1).to(3)
   end
 
   it 'cannot have its product changed' do
-    expect(a_sku).to_not respond_to(:product=)
+    expect(a_sku).not_to respond_to(:product=)
   end
 end

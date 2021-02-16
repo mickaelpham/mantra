@@ -7,7 +7,7 @@ RSpec.describe ProductRepository do
   let(:a_product) { Product.new(name: a_name) }
 
   # Ensure we clean up the database between tests
-  after(:each) { DB.conn.execute('DELETE FROM products') }
+  after { DB.conn.execute('DELETE FROM products') }
 
   describe '#insert' do
     subject(:insert_record) { repo.save(a_product) }
@@ -17,23 +17,23 @@ RSpec.describe ProductRepository do
     end
 
     it 'returns the ID from the record inserted' do
-      expect(subject.id).to_not be_nil
+      expect(insert_record.id).not_to be_nil
     end
 
     it 'does not instantiate a new object' do
-      expect(a_product.object_id).to eq(subject.object_id)
+      expect(a_product.object_id).to eq(insert_record.object_id)
     end
   end
 
   describe '#update' do
-    before { repo.save(a_product) }
-
-    let(:another_name) { 'My other product name' }
-
     subject(:update_record) do
       a_product.name = another_name
       repo.save(a_product)
     end
+
+    before { repo.save(a_product) }
+
+    let(:another_name) { 'My other product name' }
 
     it 'persists the new name in the database' do
       update_record
@@ -54,7 +54,7 @@ RSpec.describe ProductRepository do
       end
 
       it 'does change anything in the database' do
-        expect { delete_record }.to_not(change { repo.all.size })
+        expect { delete_record }.not_to(change { repo.all.size })
       end
     end
 

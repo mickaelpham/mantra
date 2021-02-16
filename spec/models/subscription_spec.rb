@@ -22,18 +22,20 @@ RSpec.describe Subscription do
   end
 
   describe '#compliant_with?' do
+    subject { a_subscription.compliant_with?(rules) }
+
     let(:compliant_rule)     { instance_double(Rule, valid_given?: true) }
     let(:non_compliant_rule) { instance_double(Rule, valid_given?: false) }
 
-    subject { a_subscription.compliant_with?(rules) }
-
     context 'when all the rules are validated' do
       let(:rules) { [compliant_rule] }
+
       it { is_expected.to be(true) }
     end
 
     context 'when at least one rule is not validated' do
       let(:rules) { [compliant_rule, non_compliant_rule] }
+
       it { is_expected.to be(false) }
     end
   end
