@@ -89,8 +89,8 @@ class SKURepository
   def insert(sku)
     DB.conn.execute(INSERT, sku.product_id, sku.subscription_id, sku.quantity)
 
-    sku.tap do |p|
-      p.instance_variable_set(:@id, DB.conn.last_insert_row_id)
+    sku.tap do |s|
+      s.instance_variable_set(:@id, DB.conn.last_insert_row_id)
     end
   end
 

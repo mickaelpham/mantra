@@ -8,7 +8,7 @@ SQL
 DB.conn.execute <<-SQL
   CREATE TABLE products(
     product_id INTEGER PRIMARY KEY,
-    name       VARCHAR(100) NOT NULL
+    name       TEXT NOT NULL
   );
 SQL
 
@@ -21,7 +21,7 @@ DB.conn.execute <<-SQL
     rule_id               INTEGER PRIMARY KEY,
     configured_product_id INTEGER NOT NULL,
     optional_product_id   INTEGER NOT NULL,
-    quantity_constraint   VARCHAR(20),
+    quantity_constraint   TEXT,
     FOREIGN KEY(configured_product_id) REFERENCES products(product_id),
     FOREIGN KEY(optional_product_id)   REFERENCES products(product_id)
   );

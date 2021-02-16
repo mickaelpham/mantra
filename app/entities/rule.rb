@@ -4,10 +4,11 @@
 class Rule < T::Struct
   extend T::Sig
 
-  const :id,                    T.nilable(Integer)
-  const :configured_product_id, Integer
-  const :optional_product_id,   Integer
-  const :quantity_constraint,   T.nilable(QuantityConstraint)
+  const :id, T.nilable(Integer)
+
+  prop :configured_product_id, Integer
+  prop :optional_product_id,   Integer
+  prop :quantity_constraint,   T.nilable(QuantityConstraint)
 
   sig { params(skus: T::Array[SKU]).returns(T::Boolean) }
   def valid_given?(skus)
