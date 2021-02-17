@@ -4,7 +4,7 @@
 RSpec.describe ProductRepository do
   let(:repo)      { described_class.new }
   let(:a_name)    { 'My Amazing Product' }
-  let(:a_product) { Product.new(name: a_name) }
+  let(:a_product) { Product.new(name: a_name, anchor: true) }
 
   # Ensure we clean up the database between tests
   after { DB.conn.execute('DELETE FROM products') }

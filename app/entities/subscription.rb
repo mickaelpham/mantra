@@ -12,6 +12,9 @@ class Subscription < T::Struct
   def compliant_with?(rules)
     skus = SKURepository.new.find_by_subscription_id(T.must(id))
 
+    # Quantity constraint
     rules.all? { |rule| rule.valid_given?(skus) }
+
+    # Product dependency constraint
   end
 end

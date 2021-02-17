@@ -8,7 +8,8 @@ SQL
 DB.conn.execute <<-SQL
   CREATE TABLE products(
     product_id INTEGER PRIMARY KEY,
-    name       TEXT NOT NULL
+    name       TEXT NOT NULL,
+    is_anchor  BOOLEAN NOT NULL
   );
 SQL
 
